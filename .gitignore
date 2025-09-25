@@ -1,0 +1,38 @@
+# Log files
+*.log
+driver_installation_*.log
+hardware_verification_*.log
+missing_drivers_check_*.log
+
+# Test reports
+hardware_test_report_*.json
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
+
+# CUDA temporary files
+*.ptx
+*.cubin
